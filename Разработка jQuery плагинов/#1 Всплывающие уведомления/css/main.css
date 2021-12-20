@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* Обнуление стилей */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.noty {
+  display: none;
+  position: relative;
+  margin-top: 20px;
+  padding: 8px;
+  border: solid 2px #ff6c37;
+  border-radius: 6px;
+  background-color: #fff3f0;
+  transition: 0.3s;
+}
+.noty-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-50%) translateX(50%);
+}
+.noty-btn i {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #1c272b;
+  text-align: center;
+  line-height: 26px;
+  background-color: #fff3f0;
+  border: solid 2px #ff6c37;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.noty-message {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  width: 100%;
+  padding: 10px 5px 5px 5px;
+}

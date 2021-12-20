@@ -1,0 +1,60 @@
+@import "../variables";
+
+.container {
+    position: fixed;
+
+    bottom: 20px;
+    left: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 350px;
+}
+
+.noty {
+    display: none;
+    position: relative;
+
+    margin-top: 20px;
+    padding: 8px;
+
+    border: solid 2px $o_50;
+    border-radius: 6px;
+    background-color: $o_10;
+
+    transition: .3s;
+
+    &-btn{
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        transform: translateY(-50%) translateX(50%);
+
+        & i{
+            width: 30px;
+            height: 30px;
+
+            font-size: 20px;
+            color: $c_90;
+            text-align: center;
+            line-height: 26px;
+
+            background-color: $o_10;
+            border: solid 2px $o_50;
+            border-radius: 50%;
+
+            cursor: pointer;
+        }
+    }
+
+    &-message{
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+
+        width: 100%;
+
+        padding: 10px 5px 5px 5px;
+    }
+}
