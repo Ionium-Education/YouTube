@@ -1,4 +1,4 @@
-![Ionium.ru](https://github.com/Mamedov-Vladislav/Ionium.youtube/blob/main/Ionium.ru.svg)
+![Ionium.ru](https://github.com/Ionium-Education/youtube/blob/main/Ionium.ru.svg)
 
 # Здесь размещаются материалы канала [Ionium](https://www.youtube.com/channel/UCI3rCYuuQzZZqCdqPF4_jAw)
 
